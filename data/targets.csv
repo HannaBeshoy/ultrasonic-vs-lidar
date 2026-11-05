@@ -1,0 +1,8 @@
+target,true_cm,ultrasonic_cm,lidar_cm,predicted
+flat wall at 0 degrees,100,,,both correct
+flat wall at 45 degrees,100,,,ultrasonic misses (echo reflects away); LiDAR correct
+glass pane,100,,,ultrasonic correct; LiDAR passes through or reads behind
+black cloth,100,,,ultrasonic weak or missing (absorbs sound); LiDAR weak (absorbs IR)
+thin pole 2 cm wide,100,,,ultrasonic sees it in its 15 degree cone; LiDAR only if the beam hits it
+foam (sound absorbing),100,,,ultrasonic missing; LiDAR correct
+mirror,100,,,ultrasonic correct; LiDAR wrong (reflects the beam away)

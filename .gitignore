@@ -1,0 +1,5 @@
+octave-workspace
+*.asv
+.DS_Store
+__pycache__/
+*.check.png
